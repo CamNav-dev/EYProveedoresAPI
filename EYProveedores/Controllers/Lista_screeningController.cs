@@ -49,6 +49,7 @@ namespace EYProveedores.Controllers
                                     Direccion = reader["Proveedor_Direccion"].ToString(),
                                     Pais = reader["Proveedor_Pais"].ToString(),
                                     Facturacion = Convert.ToDecimal(reader["Facturacion"]),
+                                    UltimaEdicion = Convert.ToDateTime(reader["UltimaEdicion"])
                                 },
                                 offacSource = new OFFACSource
                                 {
@@ -139,6 +140,7 @@ namespace EYProveedores.Controllers
                                     Direccion = reader["Proveedor_Direccion"].ToString(),
                                     Pais = reader["Proveedor_Pais"].ToString(),
                                     Facturacion = Convert.ToDecimal(reader["Facturacion"]),
+                                    UltimaEdicion = Convert.ToDateTime(reader["UltimaEdicion"])
                                 },
                                 offacSource = new OFFACSource
                                 {

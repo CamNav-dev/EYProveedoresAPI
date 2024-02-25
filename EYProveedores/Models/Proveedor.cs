@@ -12,5 +12,6 @@
         public string Direccion { get; set; }
         public string Pais { get; set; }
         public decimal Facturacion { get; set; }
+        public DateTime UltimaEdicion { get; set; }
     }
 }
