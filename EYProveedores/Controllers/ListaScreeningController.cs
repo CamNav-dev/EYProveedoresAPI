@@ -8,10 +8,10 @@ namespace EYProveedores.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class Lista_screeningController : ControllerBase
+    public class ListaScreeningController : ControllerBase
     {
         private readonly string cadenaSQL;
-        public Lista_screeningController(IConfiguration configuration)
+        public ListaScreeningController(IConfiguration configuration)
         {
             cadenaSQL = configuration.GetConnectionString("CadenaSQL");
         }
@@ -68,8 +68,8 @@ namespace EYProveedores.Controllers
                                     Firm_name = reader["WBS_Firm_Name"].ToString(),
                                     Address = reader["WBS_Address"].ToString(),
                                     Country = reader["WBS_Country"].ToString(),
-                                    From_date = Convert.ToDateTime(reader["From_date"]),
-                                    To_date = Convert.ToDateTime(reader["To_date"]),
+                                    FromDate = Convert.ToDateTime(reader["From_date"]),
+                                    ToDate = Convert.ToDateTime(reader["To_date"]),
                                     Grounds = reader["Grounds"].ToString()
                                 },
 
@@ -159,8 +159,8 @@ namespace EYProveedores.Controllers
                                     Firm_name = reader["WBS_Firm_Name"].ToString(),
                                     Address = reader["WBS_Address"].ToString(),
                                     Country = reader["WBS_Country"].ToString(),
-                                    From_date = Convert.ToDateTime(reader["From_date"]),
-                                    To_date = Convert.ToDateTime(reader["To_date"]),
+                                    FromDate = Convert.ToDateTime(reader["From_date"]),
+                                    ToDate = Convert.ToDateTime(reader["To_date"]),
                                     Grounds = reader["Grounds"].ToString()
                                 },
 
