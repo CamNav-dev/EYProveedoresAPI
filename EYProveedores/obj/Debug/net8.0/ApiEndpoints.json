@@ -1,0 +1,298 @@
+[
+  {
+    "ContainingType": "EYProveedores.Controllers.ClienteController",
+    "Method": "Buscar",
+    "RelativePath": "api/Cliente/Buscar/{IdCliente}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdCliente",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EYProveedores.Controllers.ClienteController",
+    "Method": "Guardar",
+    "RelativePath": "api/Cliente/Crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "EYProveedores.Models.Cliente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EYProveedores.Controllers.ClienteController",
+    "Method": "Editar",
+    "RelativePath": "api/Cliente/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "EYProveedores.Models.Cliente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EYProveedores.Controllers.ClienteController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Cliente/Eliminar/{IdCliente}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCliente",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EYProveedores.Controllers.ClienteController",
+    "Method": "Lista",
+    "RelativePath": "api/Cliente/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EYProveedores.Controllers.Lista_screeningController",
+    "Method": "Buscar",
+    "RelativePath": "api/Lista_screening/Buscar/{IdScreening}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdScreening",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EYProveedores.Controllers.Lista_screeningController",
+    "Method": "Crear",
+    "RelativePath": "api/Lista_screening/Crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "EYProveedores.Models.ListaScreening",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EYProveedores.Controllers.Lista_screeningController",
+    "Method": "Editar",
+    "RelativePath": "api/Lista_screening/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "EYProveedores.Models.ListaScreening",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EYProveedores.Controllers.Lista_screeningController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Lista_screening/Eliminar/{IdScreening}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idScreening",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EYProveedores.Controllers.Lista_screeningController",
+    "Method": "Lista",
+    "RelativePath": "api/Lista_screening/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EYProveedores.Controllers.ProveedorController",
+    "Method": "Buscar",
+    "RelativePath": "api/Proveedor/Buscar/{IdProveedor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdProveedor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EYProveedores.Controllers.ProveedorController",
+    "Method": "Guardar",
+    "RelativePath": "api/Proveedor/Crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "EYProveedores.Models.Proveedor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EYProveedores.Controllers.ProveedorController",
+    "Method": "Editar",
+    "RelativePath": "api/Proveedor/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "EYProveedores.Models.Proveedor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EYProveedores.Controllers.ProveedorController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Proveedor/Eliminar/{IdProveedor}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProveedor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EYProveedores.Controllers.ProveedorController",
+    "Method": "Lista",
+    "RelativePath": "api/Proveedor/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EYProveedores.Controllers.UsersController",
+    "Method": "Buscar",
+    "RelativePath": "api/Users/Buscar/{IdUser}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdUser",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EYProveedores.Controllers.UsersController",
+    "Method": "Guardar",
+    "RelativePath": "api/Users/Crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "EYProveedores.Models.Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EYProveedores.Controllers.UsersController",
+    "Method": "Editar",
+    "RelativePath": "api/Users/Editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "EYProveedores.Models.Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EYProveedores.Controllers.UsersController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Users/Eliminar/{IdUser}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUser",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EYProveedores.Controllers.UsersController",
+    "Method": "Lista",
+    "RelativePath": "api/Users/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

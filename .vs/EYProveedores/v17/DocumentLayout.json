@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PruebaTecnica\\EYProveedores\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|c:\\pruebatecnica\\eyproveedores\\eyproveedores\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|c:\\pruebatecnica\\eyproveedores\\eyproveedores\\controllers\\proveedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\controllers\\proveedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|c:\\pruebatecnica\\eyproveedores\\eyproveedores\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|c:\\pruebatecnica\\eyproveedores\\eyproveedores\\controllers\\lista_screeningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\controllers\\lista_screeningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Lista_screeningController.cs",
+              "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedores\\Controllers\\Lista_screeningController.cs",
+              "RelativeDocumentMoniker": "EYProveedores\\Controllers\\Lista_screeningController.cs",
+              "ToolTip": "C:\\PruebaTecnica\\EYProveedores\\EYProveedores\\Controllers\\Lista_screeningController.cs",
+              "RelativeToolTip": "EYProveedores\\Controllers\\Lista_screeningController.cs",
+              "ViewState": "AQIAABEBAAAAAAAAAAAYwCABAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T23:48:04.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedores\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "EYProveedores\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\PruebaTecnica\\EYProveedores\\EYProveedores\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "EYProveedores\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAYwJ8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T23:48:02.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProveedorController.cs",
+              "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedores\\Controllers\\ProveedorController.cs",
+              "RelativeDocumentMoniker": "EYProveedores\\Controllers\\ProveedorController.cs",
+              "ToolTip": "C:\\PruebaTecnica\\EYProveedores\\EYProveedores\\Controllers\\ProveedorController.cs",
+              "RelativeToolTip": "EYProveedores\\Controllers\\ProveedorController.cs",
+              "ViewState": "AQIAAKkAAAAAAAAAAAAYwLgAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T23:48:01.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedores\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "EYProveedores\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\PruebaTecnica\\EYProveedores\\EYProveedores\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "EYProveedores\\Controllers\\ClienteController.cs",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAAALIAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T23:47:59.729Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
