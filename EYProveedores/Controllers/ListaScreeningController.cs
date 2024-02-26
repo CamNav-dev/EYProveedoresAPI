@@ -38,64 +38,11 @@ namespace EYProveedores.Controllers
                                 IdScreening = Convert.ToInt32(reader["Id_screening"]),
                                 Fecha = Convert.ToDateTime(reader["Fecha"]),
                                 Tipo = reader["Tipo"].ToString(),
-                                proveedor = new Proveedor
-                                {
-                                    IdProveedor = Convert.ToInt32(reader["Id_proveedor"]),
-                                    RazonSocial = reader["Proveedor_Razon_Social"].ToString(),
-                                    Nombre = reader["Proveedor_Nombre"].ToString(),
-                                    IdTributaria = Convert.ToInt32(reader["Id_tributaria"]),
-                                    Telefono = Convert.ToInt32(reader["Telefono"]),
-                                    Correo = reader["Proveedor_Correo"].ToString(),
-                                    Direccion = reader["Proveedor_Direccion"].ToString(),
-                                    Pais = reader["Proveedor_Pais"].ToString(),
-                                    Facturacion = Convert.ToDecimal(reader["Facturacion"]),
-                                    UltimaEdicion = Convert.ToDateTime(reader["UltimaEdicion"])
-                                },
-                                offacSource = new OFFACSource
-                                {
-                                    IdOfac = Convert.ToInt32(reader["Id_ofac"]),
-                                    Name = reader["OFAC_Name"].ToString(),
-                                    Address = reader["OFAC_Address"].ToString(),
-                                    Type = reader["OFAC_Type"].ToString(),
-                                    Programs = reader["Programs"].ToString(),
-                                    List = reader["List"].ToString(),
-                                    Score = reader["Score"].ToString()
-                                },
-
-                                theWorldBankSource = new TheWorldBankSource
-                                {
-                                    IdWbs = Convert.ToInt32(reader["Id_wbs"]),
-                                    Firm_name = reader["WBS_Firm_Name"].ToString(),
-                                    Address = reader["WBS_Address"].ToString(),
-                                    Country = reader["WBS_Country"].ToString(),
-                                    FromDate = Convert.ToDateTime(reader["From_date"]),
-                                    ToDate = Convert.ToDateTime(reader["To_date"]),
-                                    Grounds = reader["Grounds"].ToString()
-                                },
-
-                                offshore = new OffshoreSource
-                                {
-                                    IdOs = Convert.ToInt32(reader["Id_os"]),
-                                    Entity = reader["Offshore_Entity"].ToString(),
-                                    Jurisdiction = reader["Jurisdiction"].ToString(),
-                                    LinkedTo = reader["Linked_to"].ToString(),
-                                    DataFrom = reader["Data_from"].ToString()
-                                },
-
-                                cliente = new Cliente
-                                {
-                                    IdCliente = Convert.ToInt32(reader["Id_cliente"]),
-                                    Nombre = reader["Cliente_Nombre"].ToString(),
-                                    Apellido = reader["Cliente_Apellido"].ToString(),
-                                    Estado = reader["Cliente_Estado"].ToString(),
-                                    Correo = reader["Cliente_Correo"].ToString(),
-                                    users = new Users
-                                    {
-                                        IdUser = Convert.ToInt32(reader["Id_user"]),
-                                        Username = reader["Username"].ToString(),
-                                        Password = reader["Password"].ToString()
-                                    }
-                                },
+                                IdCliente = Convert.ToInt32(reader["Id_cliente"]),
+                                IdOfac = Convert.ToInt32(reader["Id_ofac"]),
+                                IdOs = Convert.ToInt32(reader["Id_os"]),
+                                IdWbs = Convert.ToInt32(reader["Id_wbs"]),
+                                IdProveedor = Convert.ToInt32(reader["Id_proveedor"]),
                             });
                         }
                     }
@@ -129,64 +76,11 @@ namespace EYProveedores.Controllers
                                 IdScreening = Convert.ToInt32(reader["Id_screening"]),
                                 Fecha = Convert.ToDateTime(reader["Fecha"]),
                                 Tipo = reader["Tipo"].ToString(),
-                                proveedor = new Proveedor
-                                {
-                                    IdProveedor = Convert.ToInt32(reader["Id_proveedor"]),
-                                    RazonSocial = reader["Proveedor_Razon_Social"].ToString(),
-                                    Nombre = reader["Proveedor_Nombre"].ToString(),
-                                    IdTributaria = Convert.ToInt32(reader["Id_tributaria"]),
-                                    Telefono = Convert.ToInt32(reader["Telefono"]),
-                                    Correo = reader["Proveedor_Correo"].ToString(),
-                                    Direccion = reader["Proveedor_Direccion"].ToString(),
-                                    Pais = reader["Proveedor_Pais"].ToString(),
-                                    Facturacion = Convert.ToDecimal(reader["Facturacion"]),
-                                    UltimaEdicion = Convert.ToDateTime(reader["UltimaEdicion"])
-                                },
-                                offacSource = new OFFACSource
-                                {
-                                    IdOfac = Convert.ToInt32(reader["Id_ofac"]),
-                                    Name = reader["OFAC_Name"].ToString(),
-                                    Address = reader["OFAC_Address"].ToString(),
-                                    Type = reader["OFAC_Type"].ToString(),
-                                    Programs = reader["Programs"].ToString(),
-                                    List = reader["List"].ToString(),
-                                    Score = reader["Score"].ToString()
-                                },
-
-                                theWorldBankSource = new TheWorldBankSource
-                                {
-                                    IdWbs = Convert.ToInt32(reader["Id_wbs"]),
-                                    Firm_name = reader["WBS_Firm_Name"].ToString(),
-                                    Address = reader["WBS_Address"].ToString(),
-                                    Country = reader["WBS_Country"].ToString(),
-                                    FromDate = Convert.ToDateTime(reader["From_date"]),
-                                    ToDate = Convert.ToDateTime(reader["To_date"]),
-                                    Grounds = reader["Grounds"].ToString()
-                                },
-
-                                offshore = new OffshoreSource
-                                {
-                                    IdOs = Convert.ToInt32(reader["Id_os"]),
-                                    Entity = reader["Offshore_Entity"].ToString(),
-                                    Jurisdiction = reader["Jurisdiction"].ToString(),
-                                    LinkedTo = reader["Linked_to"].ToString(),
-                                    DataFrom = reader["Data_from"].ToString()
-                                },
-
-                                cliente = new Cliente
-                                {
-                                    IdCliente = Convert.ToInt32(reader["Id_cliente"]),
-                                    Nombre = reader["Cliente_Nombre"].ToString(),
-                                    Apellido = reader["Cliente_Apellido"].ToString(),
-                                    Estado = reader["Cliente_Estado"].ToString(),
-                                    Correo = reader["Cliente_Correo"].ToString(),
-                                    users = new Users
-                                    {
-                                        IdUser = Convert.ToInt32(reader["Id_user"]),
-                                        Username = reader["Username"].ToString(),
-                                        Password = reader["Password"].ToString()
-                                    }
-                                },
+                                IdCliente = Convert.ToInt32(reader["Id_cliente"]),
+                                IdOfac = Convert.ToInt32(reader["Id_ofac"]),
+                                IdOs = Convert.ToInt32(reader["Id_os"]),
+                                IdWbs = Convert.ToInt32(reader["Id_wbs"]),
+                                IdProveedor = Convert.ToInt32(reader["Id_proveedor"]),
 
                             };
                         }
@@ -223,11 +117,11 @@ namespace EYProveedores.Controllers
                     cmd.Parameters.Add(new SqlParameter("@Id_screening", objeto.IdScreening));
                     cmd.Parameters.Add(new SqlParameter("@Fecha", objeto.Fecha));
                     cmd.Parameters.Add(new SqlParameter("@Tipo", objeto.Tipo));
-                    cmd.Parameters.Add(new SqlParameter("@Id_proveedor", objeto.proveedor.IdProveedor));
-                    cmd.Parameters.Add(new SqlParameter("@Id_os", objeto.offshore.IdOs));
-                    cmd.Parameters.Add(new SqlParameter("@Id_wbs", objeto.theWorldBankSource.IdWbs));
-                    cmd.Parameters.Add(new SqlParameter("@Id_ofac", objeto.offacSource.IdOfac));
-                    cmd.Parameters.Add(new SqlParameter("@Id_cliente", objeto.cliente.IdCliente));
+                    cmd.Parameters.Add(new SqlParameter("@Id_proveedor", objeto.IdProveedor));
+                    cmd.Parameters.Add(new SqlParameter("@Id_os", objeto.IdOs));
+                    cmd.Parameters.Add(new SqlParameter("@Id_wbs", objeto.IdWbs));
+                    cmd.Parameters.Add(new SqlParameter("@Id_ofac", objeto.IdOfac));
+                    cmd.Parameters.Add(new SqlParameter("@Id_cliente", objeto.IdCliente));
 
                     // Ejecutar el procedimiento almacenado
                     cmd.ExecuteNonQuery();
@@ -258,11 +152,11 @@ namespace EYProveedores.Controllers
                     cmd.Parameters.Add(new SqlParameter("@Id_screening", objeto.IdScreening));
                     cmd.Parameters.Add(new SqlParameter("@Fecha", objeto.Fecha));
                     cmd.Parameters.Add(new SqlParameter("@Tipo", objeto.Tipo));
-                    cmd.Parameters.Add(new SqlParameter("@Id_proveedor", objeto.proveedor.IdProveedor));
-                    cmd.Parameters.Add(new SqlParameter("@Id_os", objeto.offshore.IdOs));
-                    cmd.Parameters.Add(new SqlParameter("@Id_wbs", objeto.theWorldBankSource.IdWbs));
-                    cmd.Parameters.Add(new SqlParameter("@Id_ofac", objeto.offacSource.IdOfac));
-                    cmd.Parameters.Add(new SqlParameter("@Id_cliente", objeto.cliente.IdCliente));
+                    cmd.Parameters.Add(new SqlParameter("@Id_proveedor", objeto.IdProveedor));
+                    cmd.Parameters.Add(new SqlParameter("@Id_os", objeto.IdOs));
+                    cmd.Parameters.Add(new SqlParameter("@Id_wbs", objeto.IdWbs));
+                    cmd.Parameters.Add(new SqlParameter("@Id_ofac", objeto.IdOfac));
+                    cmd.Parameters.Add(new SqlParameter("@Id_cliente", objeto.IdCliente));
 
                     // Ejecutar el procedimiento almacenado
                     cmd.ExecuteNonQuery();

@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("EYProveedores")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8510476d740c32c8bee771a05f18a3a9658f92af")]
 [assembly: System.Reflection.AssemblyProductAttribute("EYProveedores")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EYProveedores")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PruebaTecnica\\EYProveedores\\EYProveedores\\EYProveedores.csproj": {}
+    "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\EYProveedores.csproj": {}
   },
   "projects": {
-    "C:\\PruebaTecnica\\EYProveedores\\EYProveedores\\EYProveedores.csproj": {
+    "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\EYProveedores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PruebaTecnica\\EYProveedores\\EYProveedores\\EYProveedores.csproj",
+        "projectUniqueName": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\EYProveedores.csproj",
         "projectName": "EYProveedores",
-        "projectPath": "C:\\PruebaTecnica\\EYProveedores\\EYProveedores\\EYProveedores.csproj",
+        "projectPath": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\EYProveedores.csproj",
         "packagesPath": "C:\\Users\\camin\\.nuget\\packages\\",
-        "outputPath": "C:\\PruebaTecnica\\EYProveedores\\EYProveedores\\obj\\",
+        "outputPath": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\camin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,9 +45,43 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.18.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

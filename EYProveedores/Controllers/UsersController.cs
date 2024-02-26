@@ -2,23 +2,52 @@
 using System.Data;
 using System.Data.SqlClient;
 using EYProveedores.Models;
+using Newtonsoft.Json;
+using System.Security.Claims;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authorization;
+using EYProveedores.Models.Custom;
+using EYProveedores.Services;
+using Microsoft.Extensions.Configuration;
 namespace EYProveedores.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class UsersController : ControllerBase
     {
+        private readonly Services.IAuthorizationService _authorizationService;
         private readonly string cadenaSQL;
-        public UsersController(IConfiguration configuration)
+        public UsersController(Services.IAuthorizationService authorizationService, IConfiguration configuration)
         {
+            _authorizationService = authorizationService;
             cadenaSQL = configuration.GetConnectionString("CadenaSQL");
         }
 
+        //Authenticate Endpoint
+
+        [HttpPost]
+        [Route("Authenticate")]
+        public async Task<IActionResult> Autenticar([FromBody] AuthorizationRequest authorization)
+        {
+            var resultado_authorization = await _authorizationService.DevolverToken(authorization);
+            if (resultado_authorization == null)
+                return Unauthorized();
+            return Ok(resultado_authorization);
+        }   
+
+
+
+
+        //CRUD Endpoint
+    
         [HttpGet]
         [Route("Lista")]
         public IActionResult Lista()
         {
-            List<Users> lista = new List<Users>();
+            List<User> lista = new List<User>();
             try
             {
                 using (var conexion = new SqlConnection(cadenaSQL))
@@ -31,7 +60,7 @@ namespace EYProveedores.Controllers
                     {
                         while (reader.Read())
                         {
-                            lista.Add(new Users
+                            lista.Add(new User
                             {
                                 IdUser = Convert.ToInt32(reader["Id_user"]),
                                 Username = reader["Username"].ToString(),
@@ -49,7 +78,7 @@ namespace EYProveedores.Controllers
         [Route("Buscar/{IdUser:int}")]
         public IActionResult Buscar(int IdUser)
         {
-            Users user = null;
+            User user = null;
             try
             {
                 using (var conexion = new SqlConnection(cadenaSQL))
@@ -64,7 +93,7 @@ namespace EYProveedores.Controllers
                     {
                         if (reader.Read()) 
                         {
-                            user = new Users
+                            user = new User
                             {
                                 IdUser = Convert.ToInt32(reader["Id_user"]),
                                 Username = reader["Username"].ToString(),
@@ -90,7 +119,7 @@ namespace EYProveedores.Controllers
 
         [HttpPost]
         [Route("Crear")]
-        public IActionResult Guardar([FromBody] Users objeto)
+        public IActionResult Guardar([FromBody] User objeto)
         {
             try
             {
@@ -117,7 +146,7 @@ namespace EYProveedores.Controllers
 
         [HttpPut]
         [Route("Editar")]
-        public IActionResult Editar([FromBody] Users objeto)
+        public IActionResult Editar([FromBody] User objeto)
         {
             try
             {

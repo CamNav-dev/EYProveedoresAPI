@@ -1,22 +1,33 @@
-﻿namespace EYProveedores.Models
+﻿using System;
+using System.Collections.Generic;
+
+namespace EYProveedores.Models;
+
+public partial class ListaScreening
 {
-    public class ListaScreening
-    {
-        public int IdScreening { get; set; }
-        public DateTime Fecha { get; set; }
-        public string Tipo { get; set; }
-        public Proveedor proveedor { get; set; }
-        public List<Proveedor> listProveedores { get; set; }
-        public OffshoreSource offshore { get; set; }
+    public int IdScreening { get; set; }
 
-        public List<OffshoreSource> listOffshoreSource { get; set; }
-        public TheWorldBankSource theWorldBankSource { get; set; }
-        public List<TheWorldBankSource> listTheWorldBankSource { get; set; }
+    public DateTime Fecha { get; set; }
 
-        public OFFACSource offacSource { get; set; }
-        public List<OFFACSource> listOFFACSource { get; set; }
+    public string Tipo { get; set; }
 
-        public Cliente cliente { get; set; }
-        public List<Cliente> listCliente { get; set; }
-    }
+    public int IdProveedor { get; set; }
+
+    public int IdOs { get; set; }
+
+    public int IdWbs { get; set; }
+
+    public int IdOfac { get; set; }
+
+    public int IdCliente { get; set; }
+
+    public virtual Cliente IdClienteNavigation { get; set; }
+
+    public virtual Offacsource IdOfacNavigation { get; set; }
+
+    public virtual OffshoreSource IdOsNavigation { get; set; }
+
+    public virtual Proveedor IdProveedorNavigation { get; set; }
+
+    public virtual TheWorldBankSource IdWbsNavigation { get; set; }
 }

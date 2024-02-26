@@ -40,11 +40,7 @@ namespace EYProveedores.Controllers
                                 Apellido = reader["Apellido"].ToString(),
                                 Estado = reader["Estado"].ToString(),
                                 Correo = reader["Correo"].ToString(),      
-                                users = new Users {
-                                    IdUser = Convert.ToInt32(reader["Id_user"]),
-                                    Username = reader["Username"].ToString(),
-                                    Password = reader["Password"].ToString()
-                                },
+                                IdUser = Convert.ToInt32(reader["Id_user"])
                             });
                         }
                     }
@@ -79,12 +75,7 @@ namespace EYProveedores.Controllers
                                 Apellido = reader["Apellido"].ToString(),
                                 Estado = reader["Estado"].ToString(),
                                 Correo = reader["Correo"].ToString(),
-                                users = new Users
-                                {
-                                    IdUser = Convert.ToInt32(reader["Id_user"]),
-                                    Username = reader["Username"].ToString(),
-                                    Password = reader["Password"].ToString()
-                                }
+                                IdUser = Convert.ToInt32(reader["Id_user"])
                             };
                         }
                     }
@@ -115,7 +106,7 @@ namespace EYProveedores.Controllers
                     conexion.Open();
                     var cmd = new SqlCommand("EYProveedores.CrearCliente", conexion); 
 
-                    cmd.Parameters.AddWithValue("@Id_user", objeto.users.IdUser);
+                    cmd.Parameters.AddWithValue("@Id_user", objeto.IdUser);
 
                     // Parámetros del Cliente
                     cmd.Parameters.AddWithValue("@Nombre", objeto.Nombre);
@@ -146,7 +137,7 @@ namespace EYProveedores.Controllers
                 {
                     conexion.Open();
                     var cmd = new SqlCommand("EYProveedores.EditarCliente", conexion);
-                    cmd.Parameters.AddWithValue("@Id_user", objeto.users.IdUser);
+                    cmd.Parameters.AddWithValue("@Id_user", objeto.IdUser);
 
                     // Parámetros del Cliente
                     cmd.Parameters.AddWithValue("@Id_cliente", objeto.IdCliente);

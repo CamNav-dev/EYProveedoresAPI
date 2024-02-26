@@ -74,9 +74,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EYProveedores.Controllers.Lista_screeningController",
+    "ContainingType": "EYProveedores.Controllers.ListaScreeningController",
     "Method": "Buscar",
-    "RelativePath": "api/Lista_screening/Buscar/{IdScreening}",
+    "RelativePath": "api/ListaScreening/Buscar/{IdScreening}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -90,9 +90,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EYProveedores.Controllers.Lista_screeningController",
+    "ContainingType": "EYProveedores.Controllers.ListaScreeningController",
     "Method": "Crear",
-    "RelativePath": "api/Lista_screening/Crear",
+    "RelativePath": "api/ListaScreening/Crear",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -106,9 +106,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EYProveedores.Controllers.Lista_screeningController",
+    "ContainingType": "EYProveedores.Controllers.ListaScreeningController",
     "Method": "Editar",
-    "RelativePath": "api/Lista_screening/Editar",
+    "RelativePath": "api/ListaScreening/Editar",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -122,9 +122,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EYProveedores.Controllers.Lista_screeningController",
+    "ContainingType": "EYProveedores.Controllers.ListaScreeningController",
     "Method": "Eliminar",
-    "RelativePath": "api/Lista_screening/Eliminar/{IdScreening}",
+    "RelativePath": "api/ListaScreening/Eliminar/{IdScreening}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -138,9 +138,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EYProveedores.Controllers.Lista_screeningController",
+    "ContainingType": "EYProveedores.Controllers.ListaScreeningController",
     "Method": "Lista",
-    "RelativePath": "api/Lista_screening/Lista",
+    "RelativePath": "api/ListaScreening/Lista",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -223,6 +223,22 @@
   },
   {
     "ContainingType": "EYProveedores.Controllers.UsersController",
+    "Method": "Autenticar",
+    "RelativePath": "api/Users/Authenticate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "authorization",
+        "Type": "EYProveedores.Models.Custom.AuthorizationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EYProveedores.Controllers.UsersController",
     "Method": "Buscar",
     "RelativePath": "api/Users/Buscar/{IdUser}",
     "HttpMethod": "GET",
@@ -247,7 +263,7 @@
     "Parameters": [
       {
         "Name": "objeto",
-        "Type": "EYProveedores.Models.Users",
+        "Type": "EYProveedores.Models.User",
         "IsRequired": true
       }
     ],
@@ -263,7 +279,7 @@
     "Parameters": [
       {
         "Name": "objeto",
-        "Type": "EYProveedores.Models.Users",
+        "Type": "EYProveedores.Models.User",
         "IsRequired": true
       }
     ],
