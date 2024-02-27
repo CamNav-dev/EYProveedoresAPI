@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EYProveedores")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8510476d740c32c8bee771a05f18a3a9658f92af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b2ca6bc9cae7d5ae0618a1009c6b79475da2f29")]
 [assembly: System.Reflection.AssemblyProductAttribute("EYProveedores")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EYProveedores")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

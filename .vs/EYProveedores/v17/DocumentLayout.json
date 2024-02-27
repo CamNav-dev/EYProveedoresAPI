@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|c:\\pruebatecnica\\eyproveedores\\eyproveedoresapi\\eyproveedores\\controllers\\fuenteshighrisk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\controllers\\fuenteshighrisk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|c:\\pruebatecnica\\eyproveedores\\eyproveedoresapi\\eyproveedores\\models\\theworldbanksource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\models\\theworldbanksource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|c:\\pruebatecnica\\eyproveedores\\eyproveedoresapi\\eyproveedores\\models\\offshoresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\models\\offshoresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|c:\\pruebatecnica\\eyproveedores\\eyproveedoresapi\\eyproveedores\\controllers\\listascreeningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\controllers\\listascreeningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|c:\\pruebatecnica\\eyproveedores\\eyproveedoresapi\\eyproveedores\\services\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\services\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +27,12 @@
       "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|c:\\pruebatecnica\\eyproveedores\\eyproveedoresapi\\eyproveedores\\controllers\\listascreeningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\controllers\\listascreeningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|c:\\pruebatecnica\\eyproveedores\\eyproveedoresapi\\eyproveedores\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|c:\\pruebatecnica\\eyproveedores\\eyproveedoresapi\\eyproveedores\\services\\iauthorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\services\\iauthorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|c:\\pruebatecnica\\eyproveedores\\eyproveedoresapi\\eyproveedores\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|c:\\pruebatecnica\\eyproveedores\\eyproveedoresapi\\eyproveedores\\models\\custom\\authorizationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,24 +63,12 @@
       "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\models\\listascreening.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|c:\\pruebatecnica\\eyproveedores\\eyproveedoresapi\\eyproveedores\\controllers\\offshoresourcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\controllers\\offshoresourcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|c:\\pruebatecnica\\eyproveedores\\eyproveedoresapi\\eyproveedores\\controllers\\proveedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\controllers\\proveedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|c:\\pruebatecnica\\eyproveedores\\eyproveedoresapi\\eyproveedores\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|c:\\pruebatecnica\\eyproveedores\\eyproveedoresapi\\eyproveedores\\controllers\\offacsourcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\controllers\\offacsourcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|c:\\pruebatecnica\\eyproveedores\\eyproveedoresapi\\eyproveedores\\models\\theworldbanksource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\models\\theworldbanksource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|c:\\pruebatecnica\\eyproveedores\\eyproveedoresapi\\eyproveedores\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\models\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|c:\\pruebatecnica\\eyproveedores\\eyproveedoresapi\\eyproveedores\\models\\offshoresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\models\\offshoresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|c:\\pruebatecnica\\eyproveedores\\eyproveedoresapi\\eyproveedores\\eyproveedores.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{E05C18A9-2805-4BC9-86CE-A73BAA1BCA23}|EYProveedores\\EYProveedores.csproj|solutionrelative:eyproveedores\\eyproveedores.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
@@ -98,37 +94,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthorizationService.cs",
-              "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Services\\AuthorizationService.cs",
-              "RelativeDocumentMoniker": "EYProveedores\\Services\\AuthorizationService.cs",
-              "ToolTip": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Services\\AuthorizationService.cs*",
-              "RelativeToolTip": "EYProveedores\\Services\\AuthorizationService.cs*",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBMAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T18:29:06.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IAuthorizationService.cs",
-              "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Services\\IAuthorizationService.cs",
-              "RelativeDocumentMoniker": "EYProveedores\\Services\\IAuthorizationService.cs",
-              "ToolTip": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Services\\IAuthorizationService.cs",
-              "RelativeToolTip": "EYProveedores\\Services\\IAuthorizationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T19:12:41.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "ListaScreeningController.cs",
               "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Controllers\\ListaScreeningController.cs",
               "RelativeDocumentMoniker": "EYProveedores\\Controllers\\ListaScreeningController.cs",
@@ -141,20 +111,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "EYProveedores\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "EYProveedores\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAACAAAABTAAAA",
+              "DocumentIndex": 0,
+              "Title": "FuentesHighRisk.cs",
+              "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Controllers\\FuentesHighRisk.cs",
+              "RelativeDocumentMoniker": "EYProveedores\\Controllers\\FuentesHighRisk.cs",
+              "ToolTip": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Controllers\\FuentesHighRisk.cs*",
+              "RelativeToolTip": "EYProveedores\\Controllers\\FuentesHighRisk.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-24T23:48:02.818Z",
+              "WhenOpened": "2024-02-26T20:25:53.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OffshoreSource.cs",
+              "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Models\\OffshoreSource.cs",
+              "RelativeDocumentMoniker": "EYProveedores\\Models\\OffshoreSource.cs",
+              "ToolTip": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Models\\OffshoreSource.cs",
+              "RelativeToolTip": "EYProveedores\\Models\\OffshoreSource.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T21:44:35.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TheWorldBankSource.cs",
+              "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Models\\TheWorldBankSource.cs",
+              "RelativeDocumentMoniker": "EYProveedores\\Models\\TheWorldBankSource.cs",
+              "ToolTip": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Models\\TheWorldBankSource.cs*",
+              "RelativeToolTip": "EYProveedores\\Models\\TheWorldBankSource.cs*",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T21:53:54.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "AuthorizationService.cs",
+              "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Services\\AuthorizationService.cs",
+              "RelativeDocumentMoniker": "EYProveedores\\Services\\AuthorizationService.cs",
+              "ToolTip": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Services\\AuthorizationService.cs",
+              "RelativeToolTip": "EYProveedores\\Services\\AuthorizationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T18:29:06.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\appsettings.json",
               "RelativeDocumentMoniker": "EYProveedores\\appsettings.json",
@@ -167,20 +176,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "EYProveedores\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "EYProveedores\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAACAAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T23:48:02.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Program.cs",
               "RelativeDocumentMoniker": "EYProveedores\\Program.cs",
               "ToolTip": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Program.cs",
               "RelativeToolTip": "EYProveedores\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA8AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-26T19:12:26.529Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "IAuthorizationService.cs",
+              "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Services\\IAuthorizationService.cs",
+              "RelativeDocumentMoniker": "EYProveedores\\Services\\IAuthorizationService.cs",
+              "ToolTip": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Services\\IAuthorizationService.cs",
+              "RelativeToolTip": "EYProveedores\\Services\\IAuthorizationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T19:12:41.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AuthorizationRequest.cs",
               "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Models\\Custom\\AuthorizationRequest.cs",
               "RelativeDocumentMoniker": "EYProveedores\\Models\\Custom\\AuthorizationRequest.cs",
@@ -193,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "AuthorizationResponse.cs",
               "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Models\\Custom\\AuthorizationResponse.cs",
               "RelativeDocumentMoniker": "EYProveedores\\Models\\Custom\\AuthorizationResponse.cs",
@@ -206,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Models\\User.cs",
               "RelativeDocumentMoniker": "EYProveedores\\Models\\User.cs",
@@ -219,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "EyproveedoresContext.cs",
               "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Models\\EyproveedoresContext.cs",
               "RelativeDocumentMoniker": "EYProveedores\\Models\\EyproveedoresContext.cs",
@@ -232,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "ProveedorController.cs",
               "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Controllers\\ProveedorController.cs",
               "RelativeDocumentMoniker": "EYProveedores\\Controllers\\ProveedorController.cs",
@@ -245,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ClienteController.cs",
               "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Controllers\\ClienteController.cs",
               "RelativeDocumentMoniker": "EYProveedores\\Controllers\\ClienteController.cs",
@@ -258,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "RolesController.cs",
               "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Controllers\\RolesController.cs",
               "RelativeDocumentMoniker": "EYProveedores\\Controllers\\RolesController.cs",
@@ -271,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "ListaScreening.cs",
               "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Models\\ListaScreening.cs",
               "RelativeDocumentMoniker": "EYProveedores\\Models\\ListaScreening.cs",
@@ -280,45 +315,6 @@
               "ViewState": "AQIAAAkAAAAAAAAAAAA8wA0AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-26T21:57:06.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "OffshoreSourceController.cs",
-              "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Controllers\\OffshoreSourceController.cs",
-              "RelativeDocumentMoniker": "EYProveedores\\Controllers\\OffshoreSourceController.cs",
-              "ToolTip": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Controllers\\OffshoreSourceController.cs",
-              "RelativeToolTip": "EYProveedores\\Controllers\\OffshoreSourceController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T21:54:52.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "OFFACSourceController.cs",
-              "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Controllers\\OFFACSourceController.cs",
-              "RelativeDocumentMoniker": "EYProveedores\\Controllers\\OFFACSourceController.cs",
-              "ToolTip": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Controllers\\OFFACSourceController.cs",
-              "RelativeToolTip": "EYProveedores\\Controllers\\OFFACSourceController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T20:25:53.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TheWorldBankSource.cs",
-              "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Models\\TheWorldBankSource.cs",
-              "RelativeDocumentMoniker": "EYProveedores\\Models\\TheWorldBankSource.cs",
-              "ToolTip": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Models\\TheWorldBankSource.cs",
-              "RelativeToolTip": "EYProveedores\\Models\\TheWorldBankSource.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T21:53:54.794Z",
               "EditorCaption": ""
             },
             {
@@ -363,24 +359,11 @@
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "OffshoreSource.cs",
-              "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Models\\OffshoreSource.cs",
-              "RelativeDocumentMoniker": "EYProveedores\\Models\\OffshoreSource.cs",
-              "ToolTip": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\Models\\OffshoreSource.cs",
-              "RelativeToolTip": "EYProveedores\\Models\\OffshoreSource.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T21:44:35.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
               "Title": "EYProveedores.csproj",
               "DocumentMoniker": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\EYProveedores.csproj",
               "RelativeDocumentMoniker": "EYProveedores\\EYProveedores.csproj",
-              "ToolTip": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\EYProveedores.csproj",
-              "RelativeToolTip": "EYProveedores\\EYProveedores.csproj",
+              "ToolTip": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\EYProveedores.csproj*",
+              "RelativeToolTip": "EYProveedores\\EYProveedores.csproj*",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-02-26T06:30:58.748Z",

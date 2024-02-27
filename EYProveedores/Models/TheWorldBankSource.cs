@@ -13,9 +13,9 @@ public partial class TheWorldBankSource
 
     public string Country { get; set; }
 
-    public DateOnly FromDate { get; set; }
+    public DateTime FromDate { get; set; }
 
-    public DateOnly ToDate { get; set; }
+    public DateTime ToDate { get; set; }
 
     public string Grounds { get; set; }
 
