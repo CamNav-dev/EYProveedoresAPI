@@ -52,6 +52,7 @@ namespace EYProveedores.Controllers
                     {
                         fromDate = DateTime.Now;
                     }
+
                     DateTime toDate;
                     try
                     {
@@ -61,6 +62,7 @@ namespace EYProveedores.Controllers
                     {
                         toDate = DateTime.Now;
                     }
+
                     string grounds = cells[6].Text;
                     var source = new TheWorldBankSource
                     {
@@ -83,7 +85,7 @@ namespace EYProveedores.Controllers
 
         // GET api/<HighRiskController>/offshore/{company}
         [HttpGet("/offshore/{company}")]
-        public IEnumerable<OffshoreSource> GetOFFSHORE(string company)
+        public IEnumerable<OffshoreSource> Get(string company)
         {
             // Navigate to the webpage
             _driver.Url = "https://offshoreleaks.icij.org/search?q=" + company;
@@ -126,6 +128,64 @@ namespace EYProveedores.Controllers
             return results;
         }
 
-        
+        // GET api/<HighRiskController>/ofac/{company}
+        [HttpGet("/ofac/{company}")]
+        public IEnumerable<Offacsource> GetOfacSource(string company)
+        {
+            // Navigate to the webpage
+            _driver.Url = "https://sanctionssearch.ofac.treas.gov/";
+
+            // Wait for the page to load
+            WebDriverWait wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(10));
+            wait.Until(d => d.FindElement(By.Id("ctl00_MainContent_pnlSearch")));
+
+            // Find the search input
+            IWebElement searchInput = _driver.FindElement(By.Id("ctl00_MainContent_txtLastName"));
+            searchInput.SendKeys(company);
+
+            // Find the search button
+            IWebElement searchButton = _driver.FindElement(By.Id("ctl00_MainContent_btnSearch"));
+            searchButton.Click();
+
+            // Wait for the page to load
+            wait.Until(d => d.FindElement(By.Id("gvSearchResults")));
+
+            // Find the table
+            IWebElement table = _driver.FindElement(By.Id("gvSearchResults"));
+
+            var results = new List<Offacsource>();
+
+            if (table != null)
+            {
+                var rows = table.FindElements(By.TagName("tr"));
+                foreach (var row in rows)
+                {
+                    var cols = row.FindElements(By.TagName("td"));
+                    string name = cols[0].GetAttribute("innerText");
+                    string address = cols[1].GetAttribute("innerText");
+                    string type = cols[2].GetAttribute("innerText");
+                    string programs = cols[3].GetAttribute("innerText");
+                    string list = cols[4].GetAttribute("innerText");
+                    string score = cols[5].GetAttribute("innerText");
+                    var source = new Offacsource
+                    {
+                        Name = name,
+                        Address = address,
+                        Type = type,
+                        Programs = programs,
+                        List = list,
+                        Score = score
+                    };
+
+                    results.Add(source);
+                }
+            }
+
+            _driver.Quit();
+
+            return results;
+        }
+
+
     }
 }

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using EYProveedores.Services;
 using Microsoft.Extensions.Configuration;
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddAuthorization();
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -51,6 +51,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseCors(policy => policy
+    .AllowAnyOrigin()
+    .AllowAnyMethod()
+    .AllowAnyHeader());
 
 app.UseHttpsRedirection();
 app.UseAuthentication();
