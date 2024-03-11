@@ -21,13 +21,9 @@ public partial class ListaScreening
 
     public int IdCliente { get; set; }
 
-    public virtual Cliente IdClienteNavigation { get; set; }
-
-    public virtual Offacsource IdOfacNavigation { get; set; }
-
-    public virtual OffshoreSource IdOsNavigation { get; set; }
-
-    public virtual Proveedor IdProveedorNavigation { get; set; }
-
-    public virtual TheWorldBankSource IdWbsNavigation { get; set; }
+    public virtual Cliente Cliente { get; set; }
+    public virtual Offacsource OFACSource {get; set; }
+    public virtual OffshoreSource OffshoreSource { get; set; }
+    public virtual Proveedor Proveedor { get; set; }
+    public virtual TheWorldBankSource TheWorldBankSource { get; set; }
 }

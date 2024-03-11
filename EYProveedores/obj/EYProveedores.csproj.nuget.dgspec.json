@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\EYProveedores.csproj": {}
+    "C:\\EYPrueba\\Back\\EYProveedoresAPI\\EYProveedores\\EYProveedores.csproj": {}
   },
   "projects": {
-    "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\EYProveedores.csproj": {
+    "C:\\EYPrueba\\Back\\EYProveedoresAPI\\EYProveedores\\EYProveedores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\EYProveedores.csproj",
+        "projectUniqueName": "C:\\EYPrueba\\Back\\EYProveedoresAPI\\EYProveedores\\EYProveedores.csproj",
         "projectName": "EYProveedores",
-        "projectPath": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\EYProveedores.csproj",
+        "projectPath": "C:\\EYPrueba\\Back\\EYProveedoresAPI\\EYProveedores\\EYProveedores.csproj",
         "packagesPath": "C:\\Users\\camin\\.nuget\\packages\\",
-        "outputPath": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\obj\\",
+        "outputPath": "C:\\EYPrueba\\Back\\EYProveedoresAPI\\EYProveedores\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\camin\\AppData\\Roaming\\NuGet\\NuGet.Config",

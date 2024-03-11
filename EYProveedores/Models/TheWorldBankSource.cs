@@ -19,5 +19,6 @@ public partial class TheWorldBankSource
 
     public string Grounds { get; set; }
 
-    public virtual ICollection<ListaScreening> ListaScreenings { get; set; } = new List<ListaScreening>();
+    public virtual ICollection<ListaScreening> ListaScreening { get; set; }
+
 }

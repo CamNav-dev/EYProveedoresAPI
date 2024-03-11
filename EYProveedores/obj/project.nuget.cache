@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gGS+7uqtu2rmDo1gYuMPx7eJffMOKZq44m7gBr1cL8tdNzjZv0YRlX9q6la2IKXeSBPtVs3Gx2l95BrSF1snGQ==",
+  "dgSpecHash": "+UQ6LB/rmC4J0gwzKHUXyok5cUwMnLEWKU6gZfb0OwjthMk6btF9MeymT3PaR+UoINjIXfgfbazT17fQueWa1w==",
   "success": true,
-  "projectFilePath": "C:\\PruebaTecnica\\EYProveedores\\EYProveedoresAPI\\EYProveedores\\EYProveedores.csproj",
+  "projectFilePath": "C:\\EYPrueba\\Back\\EYProveedoresAPI\\EYProveedores\\EYProveedores.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\camin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\camin\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

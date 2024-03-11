@@ -45,7 +45,8 @@ namespace EYProveedores.Controllers
                                 Pais = reader["Pais"].ToString(),
                                 SitioWeb = reader["Sitio_Web"].ToString(),
                                 Facturacion = Convert.ToDecimal(reader["Facturacion"]),
-                            });
+                                UltimaEdicion = Convert.ToDateTime(reader["UltimaEdicion"])
+                        });
                         }
                     }
                 }
@@ -85,6 +86,7 @@ namespace EYProveedores.Controllers
                                 Pais = reader["Pais"].ToString(),
                                 SitioWeb = reader["Sitio_Web"].ToString(),
                                 Facturacion = Convert.ToDecimal(reader["Facturacion"]),
+                                UltimaEdicion = Convert.ToDateTime(reader["UltimaEdicion"])
                             };
                         }
                     }
@@ -117,13 +119,15 @@ namespace EYProveedores.Controllers
                     var cmd = new SqlCommand("EYProveedores.CrearProveedor", conexion);
                     cmd.Parameters.AddWithValue("Id_proveedor", objeto.IdProveedor);
                     cmd.Parameters.AddWithValue("Razon_social", objeto.RazonSocial);
+                    cmd.Parameters.AddWithValue("Nombre", objeto.Nombre);
                     cmd.Parameters.AddWithValue("Id_tributaria", objeto.IdTributaria);
                     cmd.Parameters.AddWithValue("Telefono", objeto.Telefono);
                     cmd.Parameters.AddWithValue("Correo", objeto.Correo);
-                    cmd.Parameters.AddWithValue("Sitio_web", objeto.Correo);
+                    cmd.Parameters.AddWithValue("Sitio_web", objeto.SitioWeb);
                     cmd.Parameters.AddWithValue("Direccion", objeto.Direccion);
                     cmd.Parameters.AddWithValue("Pais", objeto.Pais);
                     cmd.Parameters.AddWithValue("Facturacion", objeto.Facturacion);
+                    cmd.Parameters.AddWithValue("UltimaEdicion", objeto.UltimaEdicion);
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.ExecuteNonQuery();
                 }
@@ -151,13 +155,15 @@ namespace EYProveedores.Controllers
                     var cmd = new SqlCommand("EYProveedores.EditarProveedor", conexion);
                     cmd.Parameters.AddWithValue("Id_proveedor", objeto.IdProveedor);
                     cmd.Parameters.AddWithValue("Razon_social", objeto.RazonSocial);
+                    cmd.Parameters.AddWithValue("Nombre", objeto.Nombre); 
                     cmd.Parameters.AddWithValue("Id_tributaria", objeto.IdTributaria);
                     cmd.Parameters.AddWithValue("Telefono", objeto.Telefono);
                     cmd.Parameters.AddWithValue("Correo", objeto.Correo);
-                    cmd.Parameters.AddWithValue("Sitio_web", objeto.Correo);
+                    cmd.Parameters.AddWithValue("Sitio_web", objeto.SitioWeb);
                     cmd.Parameters.AddWithValue("Direccion", objeto.Direccion);
                     cmd.Parameters.AddWithValue("Pais", objeto.Pais);
                     cmd.Parameters.AddWithValue("Facturacion", objeto.Facturacion);
+                    cmd.Parameters.AddWithValue("UltimaEdicion", objeto.UltimaEdicion); 
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.ExecuteNonQuery();
                 }

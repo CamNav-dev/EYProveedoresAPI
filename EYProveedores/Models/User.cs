@@ -5,13 +5,15 @@ namespace EYProveedores.Models;
 
 public partial class User
 {
+    public User()
+    {
+        Clientes = new HashSet<Cliente>();
+    }
+
     public int IdUser { get; set; }
-
     public string Username { get; set; }
-
     public string Password { get; set; }
 
-    public virtual ICollection<Cliente> Clientes { get; set; } = new List<Cliente>();
-
-    public virtual ICollection<Role> Roles { get; set; } = new List<Role>();
+    // Propiedad de navegación para la relación Uno a Muchos con Cliente
+    public virtual ICollection<Cliente> Clientes { get; set; }
 }

@@ -104,8 +104,9 @@ namespace EYProveedores.Controllers
                 using (var conexion = new SqlConnection(cadenaSQL))
                 {
                     conexion.Open();
-                    var cmd = new SqlCommand("EYProveedores.CrearCliente", conexion); 
+                    var cmd = new SqlCommand("EYProveedores.CrearCliente", conexion);
 
+                    // Asegúrate de que estás agregando IdUser al comando como un parámetro
                     cmd.Parameters.AddWithValue("@Id_user", objeto.IdUser);
 
                     // Parámetros del Cliente
@@ -118,13 +119,15 @@ namespace EYProveedores.Controllers
                     cmd.ExecuteNonQuery();
                 }
 
-                return StatusCode(StatusCodes.Status200OK, new { mensaje = "oki agregado" });
+                return StatusCode(StatusCodes.Status200OK, new { mensaje = "oki Cliente agregado" });
             }
             catch (Exception error)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, new { mensaje = error.Message });
             }
         }
+
+
 
         [HttpPut]
         [Route("Editar")]

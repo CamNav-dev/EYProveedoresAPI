@@ -25,7 +25,8 @@ public partial class Proveedor
 
     public decimal Facturacion { get; set; }
 
-    public DateOnly UltimaEdicion { get; set; }
+    public DateTime UltimaEdicion { get; set; }
 
-    public virtual ICollection<ListaScreening> ListaScreenings { get; set; } = new List<ListaScreening>();
+    public virtual ICollection<ListaScreening> ListaScreening { get; set; }
+
 }

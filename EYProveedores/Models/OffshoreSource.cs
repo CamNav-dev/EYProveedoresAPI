@@ -15,5 +15,6 @@ public partial class OffshoreSource
 
     public string DataFrom { get; set; }
 
-    public virtual ICollection<ListaScreening> ListaScreenings { get; set; } = new List<ListaScreening>();
+    public virtual ICollection<ListaScreening> ListaScreening { get; set; }
+
 }

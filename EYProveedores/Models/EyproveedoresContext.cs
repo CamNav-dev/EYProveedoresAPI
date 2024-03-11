@@ -44,23 +44,17 @@ public partial class EyproveedoresContext : DbContext
             entity.ToTable("Cliente", "EYProveedores");
 
             entity.Property(e => e.IdCliente).HasColumnName("Id_cliente");
-            entity.Property(e => e.Apellido)
-                .HasMaxLength(50)
-                .IsUnicode(false);
-            entity.Property(e => e.Correo)
-                .HasMaxLength(100)
-                .IsUnicode(false);
-            entity.Property(e => e.Estado)
-                .HasMaxLength(20)
-                .IsUnicode(false);
+            entity.Property(e => e.Apellido).HasMaxLength(50).IsUnicode(false);
+            entity.Property(e => e.Correo).HasMaxLength(100).IsUnicode(false);
+            entity.Property(e => e.Estado).HasMaxLength(20).IsUnicode(false);
             entity.Property(e => e.IdUser).HasColumnName("Id_user");
-            entity.Property(e => e.Nombre)
-                .HasMaxLength(50)
-                .IsUnicode(false);
+            entity.Property(e => e.Nombre).HasMaxLength(50).IsUnicode(false);
 
-            entity.HasOne(d => d.IdUserNavigation).WithMany(p => p.Clientes)
-                .HasForeignKey(d => d.IdUser)
-                .HasConstraintName("cliente_users");
+            // Configuración de la relación Uno a Muchos
+            entity.HasOne(d => d.User) // Cliente tiene un User
+                .WithMany(p => p.Clientes) // User tiene muchos Clientes
+                .HasForeignKey(d => d.IdUser) // La clave foránea en Cliente
+                .HasConstraintName("FK_Cliente_User"); // Opcional: Nombre de la restricción
         });
 
         modelBuilder.Entity<ListaScreening>(entity =>
@@ -72,41 +66,42 @@ public partial class EyproveedoresContext : DbContext
             entity.Property(e => e.IdScreening)
                 .ValueGeneratedNever()
                 .HasColumnName("Id_screening");
-            entity.Property(e => e.IdCliente).HasColumnName("Id_cliente");
-            entity.Property(e => e.IdOfac).HasColumnName("Id_ofac");
-            entity.Property(e => e.IdOs).HasColumnName("Id_os");
-            entity.Property(e => e.IdProveedor).HasColumnName("Id_proveedor");
-            entity.Property(e => e.IdWbs).HasColumnName("Id_wbs");
+
+            entity.Property(e => e.Fecha).HasColumnType("datetime");
+
             entity.Property(e => e.Tipo)
                 .IsRequired()
                 .HasMaxLength(50)
                 .IsUnicode(false);
 
-            entity.HasOne(d => d.IdClienteNavigation).WithMany(p => p.ListaScreenings)
-                .HasForeignKey(d => d.IdCliente)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("lista_screening_cliente");
+            entity.Property(e => e.IdCliente).HasColumnName("Id_cliente");
+            entity.Property(e => e.IdOfac).HasColumnName("Id_ofac");
+            entity.Property(e => e.IdOs).HasColumnName("Id_os");
+            entity.Property(e => e.IdProveedor).HasColumnName("Id_proveedor");
+            entity.Property(e => e.IdWbs).HasColumnName("Id_wbs");
 
-            entity.HasOne(d => d.IdOfacNavigation).WithMany(p => p.ListaScreenings)
-                .HasForeignKey(d => d.IdOfac)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("lista_screening_OFFACSource");
+            // Configuración de relaciones usando los nombres correctos de las propiedades de navegación
+            entity.HasOne(d => d.Cliente)
+                .WithMany(p => p.ListaScreening) // Asegúrate de que la propiedad ListaScreenings existe en Cliente y es una colección
+                .HasForeignKey(d => d.IdCliente);
 
-            entity.HasOne(d => d.IdOsNavigation).WithMany(p => p.ListaScreenings)
-                .HasForeignKey(d => d.IdOs)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("lista_screening_OffshoreSource");
+            entity.HasOne(d => d.OFACSource)
+                .WithMany(p => p.ListaScreening) // Similar para OFACSource, y así sucesivamente para las demás
+                .HasForeignKey(d => d.IdOfac);
 
-            entity.HasOne(d => d.IdProveedorNavigation).WithMany(p => p.ListaScreenings)
-                .HasForeignKey(d => d.IdProveedor)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("lista_screening_proveedor");
+            entity.HasOne(d => d.OffshoreSource)
+                .WithMany(p => p.ListaScreening)
+                .HasForeignKey(d => d.IdOs);
 
-            entity.HasOne(d => d.IdWbsNavigation).WithMany(p => p.ListaScreenings)
-                .HasForeignKey(d => d.IdWbs)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("lista_screening_TheWorldBankSource");
+            entity.HasOne(d => d.Proveedor)
+                .WithMany(p => p.ListaScreening)
+                .HasForeignKey(d => d.IdProveedor);
+
+            entity.HasOne(d => d.TheWorldBankSource)
+                .WithMany(p => p.ListaScreening)
+                .HasForeignKey(d => d.IdWbs);
         });
+
 
         modelBuilder.Entity<Offacsource>(entity =>
         {
@@ -229,11 +224,6 @@ public partial class EyproveedoresContext : DbContext
                 .IsRequired()
                 .HasMaxLength(50)
                 .IsUnicode(false);
-
-            entity.HasOne(d => d.IdUserNavigation).WithMany(p => p.Roles)
-                .HasForeignKey(d => d.IdUser)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("roles_users");
         });
 
         modelBuilder.Entity<TheWorldBankSource>(entity =>
@@ -272,17 +262,9 @@ public partial class EyproveedoresContext : DbContext
 
             entity.ToTable("Users", "EYProveedores");
 
-            entity.Property(e => e.IdUser)
-                .ValueGeneratedNever()
-                .HasColumnName("Id_user");
-            entity.Property(e => e.Password)
-                .IsRequired()
-                .HasMaxLength(50)
-                .IsUnicode(false);
-            entity.Property(e => e.Username)
-                .IsRequired()
-                .HasMaxLength(50)
-                .IsUnicode(false);
+            entity.Property(e => e.IdUser).ValueGeneratedNever().HasColumnName("Id_user");
+            entity.Property(e => e.Password).IsRequired().HasMaxLength(50).IsUnicode(false);
+            entity.Property(e => e.Username).IsRequired().HasMaxLength(50).IsUnicode(false);
         });
 
         OnModelCreatingPartial(modelBuilder);

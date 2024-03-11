@@ -138,11 +138,10 @@ namespace EYProveedores.Controllers
             }
             catch (Exception error)
             {
-
                 return StatusCode(StatusCodes.Status500InternalServerError, new { mensaje = error.Message });
-
             }
         }
+
 
         [HttpPut]
         [Route("Editar")]

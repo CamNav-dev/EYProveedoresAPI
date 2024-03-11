@@ -17,7 +17,7 @@ namespace EYProveedores.Controllers
         private ChromeDriver _driver = new();
 
         // GET: api/<HighRiskController>/world-bank
-        [HttpGet("/world-bank")]
+        [HttpGet("world-bank")]
         public IEnumerable<TheWorldBankSource> Get()
         {
             _driver.Url = "https://projects.worldbank.org/en/projects-operations/procurement/debarred-firms";
@@ -84,7 +84,7 @@ namespace EYProveedores.Controllers
         }
 
         // GET api/<HighRiskController>/offshore/{company}
-        [HttpGet("/offshore/{company}")]
+        [HttpGet("offshore/{company}")]
         public IEnumerable<OffshoreSource> Get(string company)
         {
             // Navigate to the webpage
@@ -129,7 +129,7 @@ namespace EYProveedores.Controllers
         }
 
         // GET api/<HighRiskController>/ofac/{company}
-        [HttpGet("/ofac/{company}")]
+        [HttpGet("ofac/{company}")]
         public IEnumerable<Offacsource> GetOfacSource(string company)
         {
             // Navigate to the webpage
